@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luisramosmedina.yoursnotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/notas"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        //Actividad principal
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //Creamos otra actividad Agregar Nota
+        <activity android:name=".AgregarNota"
+                  android:label="@string/add_nota">
+            <intent-filter>
+                <action android:name="android.intent.action.AgregarNota" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Creamos otra actividad Visualizar Nota
+        <activity android:name=".VerNota"
+            android:label="@string/ver_nota">
+            <intent-filter>
+                <action android:name="android.intent.action.VerNota" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Yours Notes</string>
+
+    <string name="add_nota">Añadir/Editar Nota</string>
+    <string name="ver_nota">Visualizar Nota</string>
+
+    <string name="menu_crear">Crear Nota</string>
+    <string name="menu_editar">Editar Nota</string>
+    <string name="menu_eliminar">Eliminar Nota</string>
+    <string name="menu_borrar_todas">Borrar Todas</string>
+    <string name="menu_salir">Salir</string>
+
+
+</resources>
